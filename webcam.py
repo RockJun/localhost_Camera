@@ -4,7 +4,8 @@ import time
 from datetime import datetime
 import face_recognition
 
-photo_dir = 'D:\\Photos'
+# photo_dir = 'D:\\Photos'
+photo_dir = ''
 if not os.path.exists(photo_dir):
     os.makedirs(photo_dir)
 
